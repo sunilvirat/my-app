@@ -1,6 +1,6 @@
 node('master'){
     // Add maven to path
-    env.PATH = "/opt/maven3/bin/:$PATH"
+    env.PATH = "/opt/maven3/bin/:$PATH" s s c
     
     stage('Git Clone/Pull'){
         git branch: 'dev', 
